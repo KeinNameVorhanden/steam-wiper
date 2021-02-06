@@ -1,6 +1,5 @@
 import os
 import shutil
-import winreg
 import json
 import time
 
