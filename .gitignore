@@ -1,4 +1,5 @@
 test_script.py
+settings.json
 *.pyc
 *.json
 *.rar
