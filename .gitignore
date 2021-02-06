@@ -1,0 +1,6 @@
+test_script.py
+*.pyc
+*.json
+*.rar
+*.exe
+*.ico
