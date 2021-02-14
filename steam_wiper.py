@@ -9,7 +9,15 @@ def list_contains(l, n):
         if m == n:
             check = True
             return check  
-    return check 
+    return check
+
+task_kills = [
+    "steam.exe",
+    "steamwebhelper.exe"
+]
+
+for kill_task in task_kills:
+    os.system('taskkill /IM ' + kill_task + ' /F')
 
 with open(".\\settings.json", "r+") as file:
     data = json.load(file)
